@@ -102,6 +102,10 @@ summary{padding:24px 0}
 .site-header .brand img,
 .site-footer .brand img,
 .inner-page-footer .brand img{width:280px!important;height:90px!important;filter:drop-shadow(0 4px 7px rgba(0,73,151,.3))}
+.site-header .brand{background:transparent!important;padding:0!important}
+.site-header .brand img,
+.site-footer .brand img,
+.inner-page-footer .brand img{filter:drop-shadow(0 4px 7px rgba(0,73,151,.3))!important}
 @media(max-width:850px){
   .site-header .brand img,
   .site-footer .brand img,
