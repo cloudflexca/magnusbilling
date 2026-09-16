@@ -98,14 +98,14 @@ summary{padding:24px 0}
 /* Keep the transparent supplied mark consistent in both landing-page placements. */
 .site-header .brand,
 .site-footer .brand,
-.inner-page-footer .brand{background:transparent;padding:0;filter:drop-shadow(0 5px 10px rgba(0,35,78,.28))}
+.inner-page-footer .brand{background:transparent;padding:0;filter:none}
 .site-header .brand img,
 .site-footer .brand img,
-.inner-page-footer .brand img{width:280px!important;height:90px!important;filter:drop-shadow(0 4px 7px rgba(0,73,151,.3))}
+.inner-page-footer .brand img{width:280px!important;height:90px!important;filter:none;image-rendering:auto}
 .site-header .brand{background:transparent!important;padding:0!important}
 .site-header .brand img,
 .site-footer .brand img,
-.inner-page-footer .brand img{filter:drop-shadow(0 4px 7px rgba(0,73,151,.3))!important}
+.inner-page-footer .brand img{filter:none!important}
 @media(max-width:850px){
   .site-header .brand img,
   .site-footer .brand img,
